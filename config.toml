@@ -25,8 +25,6 @@ enableMissingTranslationPlaceholders = false
 # languageName = "Français"
 
 
-sectionPagesMenu = "main"
-
 [params]
 #editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
 showVisitedLinks = true # default is false
@@ -35,7 +33,7 @@ themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (defau
 ordersectionsby = "weight" # ordersectionsby = "title"
 disableHomeIcon = false # default is false
 disableSearch = false # default is false
-disableNavChevron = false # set true to hide next/prev chevron, default is false
+disableNavChevron = true # set true to hide next/prev chevron, default is false
 highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
 enableGitInfo = false
@@ -43,52 +41,20 @@ enableGitInfo = false
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[[menu.shortcuts]]
+name = "Home"
+identifier = "/"
+url = "https://abraham.link/"
+weight = 10
 
-#[[menu.shortcuts]]
-#pre = "<h3>More</h3>"
-#name = "<i class='fa fa-github'></i> <label>Github repo</label>"
-#identifier = "ds"
-#url = "https://github.com/vjeantet/hugo-theme-docdock"
-#weight = 10
+[[menu.shortcuts]]
+name = "Linkroll"
+identifier = "linkroll"
+url = "https://abraham.link/linkroll/"
+weight = 20
 
-#[[menu.shortcuts]]
-#name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
-#url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
-#weight = 11
-
-#[[menu.shortcuts]]
-#name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
-#identifier = "hugodoc"
-#url = "https://gohugo.io/"
-#weight = 20
-
-#[[menu.shortcuts]]
-#name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"
-#url = "/credits"
-#weight = 30
-
-[[menu.main]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "Linkroll"
-  weight = 50
-  identifier = "linkroll"
-  url = "/linkroll/"
-[[menu.main]]
-  name = "Blogroll"
-  weight = 60
-  identifier = "blogroll"
-  url = "/blogroll/"
-[[menu.main]]
-  name = "Tags"
-  weight = 70
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Search"
-  weight = 80
-  identifier = "search"
-  url = "/search/"
+[[menu.shortcuts]]
+name = "Blogroll"
+identifier = "blogroll"
+url = "https://abraham.link/blogroll/"
+weight = 30
