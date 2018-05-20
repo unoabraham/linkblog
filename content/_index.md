@@ -29,7 +29,6 @@ It comes from the primary need to remember links and content, and also finding o
 
 Of course, I don’t intend to turn this into a microblog, and most of my regular blogging and microblogging will continue on over at <a href="https://abraham.uno/" target="_blank" rel="noopener">Abraham&#8217;s Microblog</a>.
 
-
 With Abraham’s Linkblog hopefully, the discovery and especially the retention of information will become easier, publicly searchable, and shareable.
 
 I will update this page from time to time with all snippets of positive and negative discoveries, how it has impacted or improved my life, etc.
