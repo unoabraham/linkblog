@@ -10,6 +10,9 @@ comment: false
 mathjax: false
 ---
 
+# This is a work in progeress #
+
+#### You can test/see how it works by typing my name Rajiv Abraham Nela in the search box. ####
 
 Hi, I’m Rajiv Abraham and this is my linkblog built on the tenets of the IndieWeb where I post bookmarks and links to media that I want to remember and/or return to at a later date.
 
