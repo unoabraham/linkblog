@@ -15,4 +15,4 @@ tags:
 format: link
 
 ---
-<http://blog.teamtreehouse.com/add-microformats-magic-to-your-site>
+<a href="http://blog.teamtreehouse.com/add-microformats-magic-to-your-site" target="_blank" rel="noopener">Add Microformats Magic to your Site - Treehouse Blog</a>
